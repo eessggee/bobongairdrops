@@ -16,17 +16,22 @@
     },
     {
         "id": "airdrop2",
-        "name": "Airdrop Name 2",
-        "nature": "Telegram Bot",
-        "website": "https://example2.com",
-        "raised": "$3M",
-        "referral": "https://example2.com/ref",
-        "date_posted": "2024-01-20",
-        "airdropped": "2024-02-05",
+        "name": "Grass",
+        "nature": "Node",
+        "website": "https://x.com/getgrass_io",
+        "raised": "$4.5M",
+        "referral": "https://app.getgrass.io/register/?referralCode=VRb1cbJdbGlztl8",
+        "date_posted": "Unknown",
+        "airdropped": null,
         "steps": [
-            "Join the Telegram bot.",
-            "Complete the required actions.",
-            "Link your wallet."
+            "GRASS Airdrop Guide",
+            "1. Sign Up: https://app.getgrass.io/register/?referralCode=VRb1cbJdbGlztl8 to register and verify your email.",
+            "2. Use Invite Code: Make sure to use the link above to register, as an invite code is needed.",
+            "3. Download Extension: Log in, click “Connect,” and add the Grass extension to Chrome.",
+            "4. Verify Email Again: Go to your profile to complete email verification.",
+            "5. Install and Login to Extension: Use the same credentials as your account.",
+            "6. Start Earning Points: Once connected, you'll start earning Grass points.",
+            "7. Desktop App for Bonus: Download the desktop app to earn extra points during the bonus period."
         ]
     },
     {
