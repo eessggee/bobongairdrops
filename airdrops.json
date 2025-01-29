@@ -1,54 +1,62 @@
 [
-  {
-      "id": "airdrop1",
-      "name": "Airdrop Name 1",
-      "nature": "Testnet",
-      "website": "https://example.com",
-      "raised": "$5M",
-      "referral": "https://example.com/ref",
+    {
+        "id": "airdrop1",
+        "name": "Airdrop Name 1",
+        "nature": "Testnet",
+        "website": "https://example.com",
+        "raised": "$5M",
+        "referral": "https://example.com/ref",
+        "date_posted": "2024-01-15",
+        "airdropped": null,
+        "steps": [
+            "Sign up on the official website.",
+            "Complete the testnet tasks.",
+            "Submit your wallet address."
+        ]
+    },
+    {
+        "id": "airdrop2",
+        "name": "Airdrop Name 2",
+        "nature": "Telegram Bot",
+        "website": "https://example2.com",
+        "raised": "$3M",
+        "referral": "https://example2.com/ref",
+        "date_posted": "2024-01-20",
+        "airdropped": "2024-02-05",
+        "steps": [
+            "Join the Telegram bot.",
+            "Complete the required actions.",
+            "Link your wallet."
+        ]
+    },
+    {
+      "id": "airdrop3",
+      "name": "Airdrop Name 3",
+      "nature": "Discord Event",
+      "website": "https://example3.com",
+      "raised": "$10M",
+      "referral": "https://example3.com/ref",
+      "date_posted": "2024-02-01",
+      "airdropped": null,
       "steps": [
-          "Sign up on the official website.",
-          "Complete the testnet tasks.",
+          "Join the Discord server.",
+          "Participate in the event.",
           "Submit your wallet address."
       ]
-  },
-  {
-      "id": "airdrop2",
-      "name": "Airdrop Name 2",
-      "nature": "Telegram Bot",
-      "website": "https://example2.com",
-      "raised": "$3M",
-      "referral": "https://example2.com/ref",
+    },
+    {
+      "id": "airdrop4",
+      "name": "Airdrop Name 4",
+      "nature": "Discord Event",
+      "website": "https://example4.com",
+      "raised": "$10M",
+      "referral": "https://example4.com/ref",
+      "date_posted": "2024-02-10",
+      "airdropped": "2024-02-25",
       "steps": [
-          "Join the Telegram bot.",
-          "Complete the required actions.",
-          "Link your wallet."
+          "Join the Discord server.",
+          "Participate in the event.",
+          "Submit your wallet address."
       ]
-  },
-  {
-    "id": "airdrop3",
-    "name": "Airdrop Name 3",
-    "nature": "Discord Event",
-    "website": "https://example3.com",
-    "raised": "$10M",
-    "referral": "https://example3.com/ref",
-    "steps": [
-        "Join the Discord server.",
-        "Participate in the event.",
-        "Submit your wallet address."
-    ]
-},
-{
-    "id": "airdrop4",
-    "name": "Airdrop Name 4",
-    "nature": "Discord Event",
-    "website": "https://example4.com",
-    "raised": "$10M",
-    "referral": "https://example4.com/ref",
-    "steps": [
-        "Join the Discord server.",
-        "Participate in the event.",
-        "Submit your wallet address."
-    ]
-}
-]
+    }
+  ]

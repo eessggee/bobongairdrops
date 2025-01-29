@@ -128,25 +128,35 @@
             .then(airdrops => {
                 const dropdown = document.getElementById('airdropSelect');
                 const detailsContainer = document.getElementById('detailsContainer');
-
+    
+                // Populate dropdown with airdrops
                 airdrops.forEach(airdrop => {
                     const option = document.createElement('option');
                     option.value = airdrop.id;
                     option.textContent = airdrop.name;
                     dropdown.appendChild(option);
                 });
-
+    
                 window.showDetails = () => {
                     const value = dropdown.value;
                     detailsContainer.innerHTML = '';
-
+    
                     const selectedAirdrop = airdrops.find(airdrop => airdrop.id === value);
-
+    
                     if (selectedAirdrop) {
                         const detailsDiv = document.createElement('div');
                         detailsDiv.classList.add('details');
                         detailsDiv.style.display = 'block';
+    
+                        // Check if the airdrop has ended
+                        let airdropStatus = selectedAirdrop.airdropped 
+                            ? `<p><strong>Airdropped on:</strong> ${selectedAirdrop.airdropped}</p>` 
+                            : `<p style="color: yellow;"><strong>Ongoing</strong></p>`;
+    
+                        // Display details
                         detailsDiv.innerHTML = `
+                            <p><strong>Date Posted Here:</strong> ${selectedAirdrop.date_posted}</p>
+                            ${airdropStatus}
                             <p><strong>Nature of the airdrop:</strong> ${selectedAirdrop.nature}</p>
                             <p><strong>Official Website:</strong> <a href="${selectedAirdrop.website}" target="_blank">${selectedAirdrop.website}</a></p>
                             <p><strong>How much did they raise:</strong> ${selectedAirdrop.raised}</p>
@@ -162,6 +172,7 @@
             })
             .catch(error => {
                 console.error('Error loading JSON data:', error);
+                alert("Failed to load airdrop data. Please try again later.");
             });
     </script>
 </body>
