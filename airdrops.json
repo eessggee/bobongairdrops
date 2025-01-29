@@ -37,5 +37,18 @@
         "Participate in the event.",
         "Submit your wallet address."
     ]
+},
+{
+    "id": "airdrop4",
+    "name": "Airdrop Name 4",
+    "nature": "Discord Event",
+    "website": "https://example4.com",
+    "raised": "$10M",
+    "referral": "https://example4.com/ref",
+    "steps": [
+        "Join the Discord server.",
+        "Participate in the event.",
+        "Submit your wallet address."
+    ]
 }
 ]
