@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [
   {
       "id": "airdrop1",
@@ -51,4 +52,46 @@
         "Submit your wallet address."
     ]
     }
+=======
+[
+  {
+      "id": "airdrop1",
+      "name": "Airdrop Name 1",
+      "nature": "Testnet",
+      "website": "https://example.com",
+      "raised": "$5M",
+      "referral": "https://example.com/ref",
+      "steps": [
+          "Sign up on the official website.",
+          "Complete the testnet tasks.",
+          "Submit your wallet address."
+      ]
+  },
+  {
+      "id": "airdrop2",
+      "name": "Airdrop Name 2",
+      "nature": "Telegram Bot",
+      "website": "https://example2.com",
+      "raised": "$3M",
+      "referral": "https://example2.com/ref",
+      "steps": [
+          "Join the Telegram bot.",
+          "Complete the required actions.",
+          "Link your wallet."
+      ]
+  },
+  {
+    "id": "airdrop3",
+    "name": "Airdrop Name 3",
+    "nature": "Discord Event",
+    "website": "https://example3.com",
+    "raised": "$10M",
+    "referral": "https://example3.com/ref",
+    "steps": [
+        "Join the Discord server.",
+        "Participate in the event.",
+        "Submit your wallet address."
+    ]
+}
+>>>>>>> 8df249d3f7e4b10afd7baf1ecd2e9448ec5ddd3b
 ]
