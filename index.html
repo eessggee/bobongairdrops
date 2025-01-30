@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: 'Poppins', sans-serif;
-            background: linear-gradient(to right, #4facfe, #00f2fe);
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
             color: #fff;
             margin: 0;
             padding: 0;
@@ -16,8 +16,28 @@
             align-items: center;
             justify-content: center;
             min-height: 100vh;
-            position: relative;
             text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        /* Cool abstract shapes */
+        .background-shapes::before,
+        .background-shapes::after {
+            content: "";
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            filter: blur(100px);
+        }
+        .background-shapes::before {
+            top: 10%;
+            left: -10%;
+        }
+        .background-shapes::after {
+            bottom: 10%;
+            right: -10%;
         }
         .container {
             width: 90%;
@@ -26,20 +46,23 @@
             border-radius: 12px;
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
             padding: 20px;
+            z-index: 1;
         }
         h1 {
             font-size: 2rem;
             margin-bottom: 20px;
         }
-        .dropdown select {
+        select {
             width: 100%;
             padding: 12px;
             border: none;
             border-radius: 8px;
             font-size: 1rem;
-            background: #0066ff;
+            background: #222;
             color: #fff;
             cursor: pointer;
+            appearance: none;
+            margin-bottom: 10px;
         }
         .details {
             display: none;
@@ -49,11 +72,17 @@
             padding: 15px;
             text-align: left;
         }
-        .details p, .details ol {
-            margin: 10px 0;
-            font-size: 0.9rem;
+        .tag {
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            display: inline-block;
         }
-        /* Social Media Links */
+        .community { background: #ff5733; color: white; }
+        .tg-app { background: #28a745; color: white; }
+        .node { background: #ffc107; color: black; }
+        .testnet { background: #007bff; color: white; }
         .social-icons {
             margin: 20px 0;
             font-size: 0.9rem;
@@ -63,10 +92,6 @@
             text-decoration: none;
             margin: 0 8px;
         }
-        .social-icons a:hover {
-            color: #ddd;
-        }
-        /* Wallet Address */
         .wallet-address {
             position: fixed;
             bottom: 20px;
@@ -76,41 +101,36 @@
             background: rgba(0, 0, 0, 0.8);
             padding: 10px;
             border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            text-align: center;
         }
-        /* Responsive Design */
         @media (max-width: 768px) {
-            h1 {
-                font-size: 1.5rem;
-            }
-            .container {
-                width: 95%;
-            }
-            .dropdown select {
-                font-size: 0.9rem;
-            }
-            .social-icons {
-                font-size: 0.85rem;
-            }
-            .wallet-address {
-                font-size: 0.75rem;
-            }
+            h1 { font-size: 1.5rem; }
+            .container { width: 95%; }
+            select { font-size: 0.9rem; }
+            .wallet-address { font-size: 0.75rem; }
         }
     </style>
 </head>
 <body>
+    <div class="background-shapes"></div>
+
     <div class="container">
         <h1>Bobong Airdrops</h1>
-        <div class="dropdown">
-            <select id="airdropSelect" onchange="showDetails()">
-                <option value="">Select an airdrop</option>
-            </select>
-        </div>
+
+        <select id="filterSelect" onchange="filterAirdrops()">
+            <option value="all">All Airdrops</option>
+            <option value="Community Bot">Community Bot</option>
+            <option value="TG App">TG App</option>
+            <option value="Node">Node</option>
+            <option value="Testnet">Testnet</option>
+        </select>
+
+        <select id="airdropSelect" onchange="showDetails()">
+            <option value="">Select an airdrop</option>
+        </select>
+
         <div id="detailsContainer"></div>
     </div>
 
-    <!-- Social Media Links -->
     <div class="social-icons">
         <a href="https://facebook.com/bobongairdrop" target="_blank">Facebook</a> |
         <a href="https://x.com/bobongairdrop" target="_blank">Twitter</a> |
@@ -118,62 +138,82 @@
     </div>
 
     <script>
+        let allAirdrops = [];
+
         fetch('airdrops.json')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                return response.json();
-            })
+            .then(response => response.json())
             .then(airdrops => {
-                const dropdown = document.getElementById('airdropSelect');
-                const detailsContainer = document.getElementById('detailsContainer');
-    
-                // Populate dropdown with airdrops
-                airdrops.forEach(airdrop => {
-                    const option = document.createElement('option');
-                    option.value = airdrop.id;
-                    option.textContent = airdrop.name;
-                    dropdown.appendChild(option);
-                });
-    
-                window.showDetails = () => {
-                    const value = dropdown.value;
-                    detailsContainer.innerHTML = '';
-    
-                    const selectedAirdrop = airdrops.find(airdrop => airdrop.id === value);
-    
-                    if (selectedAirdrop) {
-                        const detailsDiv = document.createElement('div');
-                        detailsDiv.classList.add('details');
-                        detailsDiv.style.display = 'block';
-    
-                        // Check if the airdrop has ended
-                        let airdropStatus = selectedAirdrop.airdropped 
-                            ? `<p><strong>Airdropped on:</strong> ${selectedAirdrop.airdropped}</p>` 
-                            : `<p style="color: yellow;"><strong>Ongoing</strong></p>`;
-    
-                        // Display details
-                        detailsDiv.innerHTML = `
-                            <p><strong>Date Posted:</strong> ${selectedAirdrop.date_posted}</p>
-                            ${airdropStatus}
-                            <p><strong>Nature of the airdrop:</strong> ${selectedAirdrop.nature}</p>
-                            <p><strong>Official Website:</strong> <a href="${selectedAirdrop.website}" target="_blank">${selectedAirdrop.website}</a></p>
-                            <p><strong>How much did they raise:</strong> ${selectedAirdrop.raised}</p>
-                            <p><strong>My referral link:</strong> <a href="${selectedAirdrop.referral}" target="_blank">${selectedAirdrop.referral}</a></p>
-                            <p><strong>Steps to participate:</strong></p>
-                            <ol>
-                                ${selectedAirdrop.steps.map(step => `<li>${step}</li>`).join('')}
-                            </ol>
-                        `;
-                        detailsContainer.appendChild(detailsDiv);
-                    }
-                };
+                allAirdrops = airdrops;
+                populateDropdown(airdrops);
             })
             .catch(error => {
                 console.error('Error loading JSON data:', error);
                 alert("Failed to load airdrop data. Please try again later.");
             });
+
+        function getTagClass(nature) {
+            switch (nature.toLowerCase()) {
+                case 'community bot': return 'community';
+                case 'tg app': return 'tg-app';
+                case 'node': return 'node';
+                case 'testnet': return 'testnet';
+                default: return 'default';
+            }
+        }
+
+        function populateDropdown(airdrops) {
+            const dropdown = document.getElementById('airdropSelect');
+            dropdown.innerHTML = '<option value="">Select an airdrop</option>';
+
+            airdrops.forEach(airdrop => {
+                const option = document.createElement('option');
+                option.value = airdrop.id;
+                option.textContent = `${airdrop.name} (${airdrop.nature})`;
+                dropdown.appendChild(option);
+            });
+        }
+
+        function showDetails() {
+            const dropdown = document.getElementById('airdropSelect');
+            const detailsContainer = document.getElementById('detailsContainer');
+            const selectedId = dropdown.value;
+
+            detailsContainer.innerHTML = '';
+
+            const selectedAirdrop = allAirdrops.find(airdrop => airdrop.id === selectedId);
+
+            if (selectedAirdrop) {
+                const detailsDiv = document.createElement('div');
+                detailsDiv.classList.add('details');
+                detailsDiv.style.display = 'block';
+
+                let airdropStatus = selectedAirdrop.airdropped
+                    ? `<p><strong>Airdropped on:</strong> ${selectedAirdrop.airdropped}</p>`
+                    : `<p style="color: yellow;"><strong>Ongoing</strong></p>`;
+
+                detailsDiv.innerHTML = `
+                    <p><strong>Date Posted:</strong> ${selectedAirdrop.date_posted}</p>
+                    ${airdropStatus}
+                    <p><strong>Nature:</strong> <span class="tag ${getTagClass(selectedAirdrop.nature)}">${selectedAirdrop.nature}</span></p>
+                    <p><strong>Website:</strong> <a href="${selectedAirdrop.website}" target="_blank">${selectedAirdrop.website}</a></p>
+                    <p><strong>Raised:</strong> ${selectedAirdrop.raised}</p>
+                    <p><strong>Referral:</strong> <a href="${selectedAirdrop.referral}" target="_blank">${selectedAirdrop.referral}</a></p>
+                    <p><strong>Steps:</strong></p>
+                    <ol>${selectedAirdrop.steps.map(step => `<li>${step}</li>`).join('')}</ol>
+                `;
+
+                detailsContainer.appendChild(detailsDiv);
+            }
+        }
+
+        function filterAirdrops() {
+            const filterValue = document.getElementById('filterSelect').value;
+            const filteredAirdrops = filterValue === 'all'
+                ? allAirdrops
+                : allAirdrops.filter(airdrop => airdrop.nature === filterValue);
+
+            populateDropdown(filteredAirdrops);
+        }
     </script>
 </body>
 </html>
