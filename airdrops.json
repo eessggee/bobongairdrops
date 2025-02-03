@@ -153,5 +153,641 @@
                 "Click the link above to sign up",
                 "Then TAP to earn coins and do upgrades"
             ]
+        },
+        {
+            "id": "airdrop11",
+            "name": "Blu AI",
+            "nature": "Node",
+            "website": "https://x.com/bluwhaleai",
+            "raised": "$7M",
+            "referral": "https://profile.bluwhale.com/login?referral=a03d5d1f-6f6a-43fd-9dd3-1d97b9006a75",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "Connect EVM wallet",
+                "create account",
+                "do tasks and daily log in"
+            ]
+        },
+        {
+            "id": "airdrop12",
+            "name": "Tapswap",
+            "nature": "TG App",
+            "website": "https://x.com/tapswapai",
+            "raised": "Unknown",
+            "referral": "https://t.me/tapswap_mirror_bot?start=r_1947935016",
+            "date_posted": null,
+            "airdropped": null,
+            "steps": [
+                "Click the link above to sign up",
+                "Then TAP to earn coins and do upgrades"
+            ]
+        },
+        {
+            "id": "airdrop13",
+            "name": "Assisterr AI",
+            "nature": "Testnet",
+            "website": "https://x.com/assisterr",
+            "raised": "$1.7M",
+            "referral": "https://build.assisterr.ai/?ref=6725ec9a4990b73b861408cd",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "Connect Solana wallet",
+                "create account",
+                "do tasks and daily mining every 12hrs"
+            ]
+        },
+        {
+            "id": "airdrop14",
+            "name": "Shaga Glob",
+            "nature": "Testnet",
+            "website": "https://x.com/playonshaga",
+            "raised": "$1M",
+            "referral": "https://glob.shaga.xyz/?r=geG5jhSgB",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "Connect Solana wallet",
+                "create account",
+                "do tasks and daily mining (spin) every 3hrs"
+            ]
+        },
+        {
+            "id": "airdrop15",
+            "name": "Blockscout",
+            "nature": "Testnet",
+            "website": "https://x.com/blockscoutcom",
+            "raised": "$3M",
+            "referral": "https://eth.blockscout.com?ref=H5K8IW",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "Connect EVM wallet",
+                "create account",
+                "daily log-in/mine points every 24hrs"
+            ]
+        },
+        {
+            "id": "airdrop16",
+            "name": "Layer Edge",
+            "nature": "Node",
+            "website": "https://x.com/layeredge",
+            "raised": "Unknown",
+            "referral": "https://dashboard.layeredge.io/",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "Connect EVM wallet",
+                "rune node",
+                "daily log-in",
+                "",
+                "use my code: 9LUFUcZb"
+            ]
+        },
+        {
+            "id": "airdrop17",
+            "name": "Taker Protocol",
+            "nature": "Node",
+            "website": "https://x.com/TakerProtocol",
+            "raised": "$3M",
+            "referral": "https://earn.taker.xyz?start=G22KJ",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "connect EVM wallet",
+                "connect your socials",
+                "do social tasks and daily tasks",
+                "activate miner every 24hrs."
+            ]
+        },
+        {
+            "id": "airdrop18",
+            "name": "Haven 1 Protocol",
+            "nature": "Testnet",
+            "website": "https://x.com/Haven1official",
+            "raised": "$4.6M",
+            "referral": "https://testnet.haven1.org/invite/blggj78zfk",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "connect EVM wallet",
+                "KYC, wait for few hours to be approved",
+                "Passport",
+                "Mint Silver",
+                "Swap Silver to Gold",
+                "Stake Gold for Platinum",
+                "Answer Quiz",
+                "Faucet token (H1 testnet token)",
+                "do bridging (5x; one time), swapping (10x; daily), faucet (1x; daily), LP (as many as you can), Auction (as many as you can; daily), and daily GM (daily log-in)",
+                "do Zealy tasks for additional rewards/points: https://zealy.io/cw/haven1/invite/Qey7hiSZDUSQ7UZh-C7Ty",
+                "",
+                "watch this youtube video for full tutorial and answer to quiz: https://www.youtube.com/watch?v=Sy1GMetPlBU"
+            ]
+        },
+        {
+            "id": "airdrop19",
+            "name": "Hemi Labs",
+            "nature": "Testnet",
+            "website": "https://x.com/hemi_xyz",
+            "raised": "$15M",
+            "referral": "https://points.absinthe.network/hemi/start",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "connect EVM wallet",
+                "input my referral code: b1960fc2",
+                "connect X",
+                "faucet Sepolia ETH",
+                "send \"x\" Sepolia ETH to convert it into Hemi ETH to this address: 0xc94b1BEe63A3e101FE5F71C80F912b4F4b055925",
+                "",
+                "Add Hemi Network: ",
+                "Network Name: Hemi Sepolia",
+                "RPC URL: testnet.rpc.hemi.network/rpc",
+                "Chain ID: 743111",
+                "Currency Symbol: ETH",
+                "Block Explorer URL: testnet.explorer.hemi.xyz",
+                "",
+                "Mint OnlyMeID under Hemi Sepolie network",
+                "Create Gnosis Safe",
+                "Do Zealy tasks",
+                "Create Capsule twice weekly",
+                "Create Swap twice daily"
+            ]
+        },
+        {
+            "id": "airdrop20",
+            "name": "Silent Protocol",
+            "nature": "Testnet",
+            "website": "https://x.com/silentdao_",
+            "raised": "$5M",
+            "referral": "https://ceremony.silentprotocol.org?ref=1029617227975208960",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "connect X",
+                "enter email address and verify",
+                "Contribute as much as you can (waiting time is approximately 1 to 2 days to initiate contributions"
+            ]
+        },
+        {
+            "id": "airdrop21",
+            "name": "Gr1d Network",
+            "nature": "Social-Fi",
+            "website": "https://x.com/GR1Dnetwork",
+            "raised": "Unknown",
+            "referral": "https://arena.gr1d.gg/?ref=34aKCs",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "connect X",
+                "enter email and verify",
+                "do all multiplier tasks first",
+                "do remaining social tasks"
+            ]
+        },
+        {
+            "id": "airdrop22",
+            "name": "77-Bit",
+            "nature": "Game-Fi",
+            "website": "https://x.com/the77bit",
+            "raised": "$1.75M",
+            "referral": "https://bithub.77-bit.com/?referrer=zpuu1",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "connect X",
+                "do social tasks",
+                "daily claim of 30 BITS in SHOP section",
+                "mine every 8 hrs"
+            ]
+        },
+        {
+            "id": "airdrop23",
+            "name": "XOS Labs",
+            "nature": "Testnet",
+            "website": "https://x.com/xos_labs",
+            "raised": "$20M",
+            "referral": "X.ink/3MT9WO",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "connect SOLANA wallet",
+                "connect your socials",
+                "daily check-in",
+                "every 10th consecutive log-ins = 1 spin"
+            ]
+        },
+        {
+            "id": "airdrop24",
+            "name": "Humanity Protocol",
+            "nature": "Testnet",
+            "website": "https://x.com/Humanityprot",
+            "raised": "$30M",
+            "referral": "testnet.humanity.org/login?ref=anxietyeth",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "create account",
+                "claim daily reward",
+                "faucet H token:  https://faucet.testnet.humanity.org/",
+                "bridge daily"
+            ]
+        },
+        {
+            "id": "airdrop25",
+            "name": "Orochi Network",
+            "nature": "Social-Fi",
+            "website": "https://x.com/OrochiNetwork",
+            "raised": "Unknown",
+            "referral": "https://orochi.network/contribute-to-earn?referralCode=6ae355c07163b689",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "connect EVM wallet",
+                "create account",
+                "do tasks and daily log in",
+                "do Zealy tasks for additional rewards/points: https://zealy.io/cw/orochinetwork/questboard"
+            ]
+        },
+        {
+            "id": "airdrop26",
+            "name": "Sahara AI",
+            "nature": "Testnet",
+            "website": "https://x.com/SaharaLabsAI",
+            "raised": "$43M",
+            "referral": "https://legends.saharalabs.ai/?code=ASAY0A",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "connect wallet",
+                "do daily tasks (including Galxe tasks)"
+            ]
+        },
+        {
+            "id": "airdrop27",
+            "name": "Hinkal Protocol",
+            "nature": "Testnet",
+            "website": "https://x.com/hinkal_protocol",
+            "raised": "$1.40M",
+            "referral": "https://hinkal.pro/?code=cp61lM8imVzKVqsgDptu ",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "connect X"
+            ]
+        },
+        {
+            "id": "airdrop28",
+            "name": "Agnt Hub AI",
+            "nature": "Social-Fi",
+            "website": "https://x.com/agnt_hub",
+            "raised": "Unknown",
+            "referral": "https://join.agnthub.ai/",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "connect X",
+                "input code: 9JTB",
+                "submit crypto meme (any format)",
+                "do the tasks",
+                "mint NFT (gas less)",
+                "claim OG Role in Discord"
+            ]
+        },
+        {
+            "id": "airdrop29",
+            "name": "Dawn Internet",
+            "nature": "Node",
+            "website": "https://x.com/dawninternet",
+            "raised": "$18M",
+            "referral": "https://chromewebstore.google.com/detail/dawn-validator-chrome-ext/fpdkjdnhkakefebpekbdhillbhonfjjp?hl=en",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "download extension",
+                "input code: czgppf31",
+                ""
+            ]
+        },
+        {
+            "id": "airdrop30",
+            "name": "Teneo Protocol",
+            "nature": "Node",
+            "website": "https://x.com/teneo_protocol",
+            "raised": "Unknown",
+            "referral": "https://chromewebstore.google.com/detail/teneo-community-node/emcclcoaglgcpoognfiggmhnhgabppkm",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "download extension",
+                "input code: UKz2v",
+                "go to dashboard and connect your socials",
+                "connect wallet",
+                "check extension to connect the node every time you open your browser",
+                ""
+            ]
+        },
+        {
+            "id": "airdrop31",
+            "name": "Toggle Pro",
+            "nature": "Node",
+            "website": "https://x.com/toggle",
+            "raised": "Unknown",
+            "referral": "https://toggle.pro/sign-up/a61fe1c3-f6a3-4bea-a261-734b5ef6f4b3",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "sign up",
+                "download the extension"
+            ]
+        },
+        {
+            "id": "airdrop32",
+            "name": "Distribute AI (Formerly known as Oasis AI)",
+            "nature": "Node",
+            "website": "https://x.com/distributeai",
+            "raised": "Unknown",
+            "referral": "https://r.distribute.ai/d5fbb1a986327410",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "sign up ",
+                "download the extension",
+                "additionally, you can download a separate program for computer/laptop user to run the node"
+            ]
+        },
+        {
+            "id": "airdrop33",
+            "name": "Multiple Network",
+            "nature": "Node",
+            "website": "https://x.com/MTP_Network",
+            "raised": "$2M",
+            "referral": "https://www.app.multiple.cc/#/signup?inviteCode=Iwi8zN8A",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "sign up and connect EVM wallet",
+                "save the unique identifation numbers to be used for separate program",
+                "download the extension",
+                "additionally, you can download a separate program for computer/laptop user to run the node"
+            ]
+        },
+        {
+            "id": "airdrop34",
+            "name": "Open Ledger",
+            "nature": "Testnet",
+            "website": "https://x.com/OpenledgerHQ",
+            "raised": "$8M",
+            "referral": "https://testnet.openledger.xyz/?referral_code=bp66pbkpsa",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "Sign up with Gmail account",
+                "download node and run",
+                "connect socials",
+                "daily log-in"
+            ]
+        },
+        {
+            "id": "airdrop35",
+            "name": "MyGate Network",
+            "nature": "Node",
+            "website": "https://x.com/mygatenetwork",
+            "raised": "Unknown",
+            "referral": "https://app.mygate.network/login?code=MvjZJe",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "sign up with Gmail account",
+                "download node and run",
+                ""
+            ]
+        },
+        {
+            "id": "airdrop36",
+            "name": "OpenLoop Network",
+            "nature": "Node",
+            "website": "https://x.com/openloop_so",
+            "raised": "$15M",
+            "referral": "https://openloop.so/auth/register?ref=ol08550f59",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "sign up",
+                "download the extension under the \"tasks and rewards\" and run it (no need to buy validator) ",
+                "connect SOLANA wallet"
+            ]
+        },
+        {
+            "id": "airdrop37",
+            "name": "DeSpeed",
+            "nature": "Node",
+            "website": "https://x.com/despeednet",
+            "raised": "Unknown",
+            "referral": "https://app.despeed.net/register?ref=dDXLrzY558J5",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "sign up",
+                "download the extension and run it ",
+                "do tasks for additional points",
+                "daily log-in"
+            ]
+        },
+        {
+            "id": "airdrop38",
+            "name": "Kaisar",
+            "nature": "Node",
+            "website": "https://x.com/kaisarnetwork?lang=en",
+            "raised": "Unknown",
+            "referral": "https://zero.kaisar.io/register?ref=rDTwok453",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "sign up",
+                "download the extension and run it ",
+                "do tasks for additional points",
+                "daily log-in"
+            ]
+        },
+        {
+            "id": "airdrop39",
+            "name": "Voltix AI ",
+            "nature": "Node",
+            "website": "https://x.com/VoltixAI",
+            "raised": "Unknown",
+            "referral": "https://voltix.ai/login?ref=YKFO9",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "sign up with SOLANA wallet",
+                "download extension and run at \"HARD\" and 16/16 workers",
+                "do socials tasks and daily tasks for additional rewards/points"
+            ]
+        },
+        {
+            "id": "airdrop40",
+            "name": "Klink Finance",
+            "nature": "Testnet",
+            "website": "https://x.com/klinkfinance",
+            "raised": "$500K",
+            "referral": "https://join.klinkfinance.com/SzUZ5K8LCQb",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "download app and sign up",
+                "do daily tasks",
+                "download the their TG app for additional airdrop rewards",
+                "do zealy tasks for additional rewards/points: https://zealy.io/cw/klinkfinance/invite/RtYMzfIYqZocfVuoanOGU?questId=fcc98c02-fce6-4270-a31a-65712a5d4bee ",
+                ""
+            ]
+        },
+        {
+            "id": "airdrop41",
+            "name": "Klink Finance",
+            "nature": "TG App",
+            "website": "https://x.com/klinkfinance",
+            "raised": "$500K",
+            "referral": "https://t.me/KlinkFinanceBot?start=1106790178",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "create new account",
+                "connect your in-app account for additional points",
+                "daily tasks",
+                "daily mine",
+                "TAP! TAP! TAP!"
+            ]
+        },
+        {
+            "id": "airdrop42",
+            "name": "Xenea",
+            "nature": "Testnet",
+            "website": "https://x.com/Xenea_io",
+            "raised": "Unknown",
+            "referral": "https://xenea.app/register/1676sGqIWC",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "sign up",
+                "do social tasks",
+                "daily log-in",
+                "daily quiz",
+                "mining at 10K points"
+            ]
+        },
+        {
+            "id": "airdrop43",
+            "name": "Unich",
+            "nature": "Testnet",
+            "website": "https://x.com/unich_com",
+            "raised": "$2M",
+            "referral": "https://unich.com/en/airdrop/sign-up?ref=SVUVNW",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "sign up",
+                "do social tasks",
+                "daily mining every 24hrs",
+                ""
+            ]
+        },
+        {
+            "id": "airdrop44",
+            "name": "Fizen Super App",
+            "nature": "Testnet",
+            "website": "https://x.com/fizenapp",
+            "raised": "$1.180M",
+            "referral": "https://fizen.io/app?ref=zUc1",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "sign up using referral code: fizenanxiety",
+                "connect socials",
+                "daily log-in",
+                "watch ads 5x daily"
+            ]
+        },
+        {
+            "id": "airdrop45",
+            "name": "Chat3",
+            "nature": "Social-Fi",
+            "website": "https://x.com/chat3one",
+            "raised": "Unknown",
+            "referral": "https://chat3.one/u/anxiety_eth?ref=878059662",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "sign up",
+                "connect socials",
+                "daily spin"
+            ]
+        },
+        {
+            "id": "airdrop46",
+            "name": "Ari Wallet",
+            "nature": "Testnet",
+            "website": "Unknown",
+            "raised": "Unknown",
+            "referral": "Android: https://play.google.com/store/apps/datasafety?id=arichain.app.ari.wallet\niOS: https://apps.apple.com/us/app/ari-wallet/id6504207160",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "sign up with code for 50 ARI bonus: 678beb1b28a11",
+                "Daily log-in",
+                "Daily quiz",
+                "Send to Send ARI token for transaction build up "
+            ]
+        },
+        {
+            "id": "airdrop47",
+            "name": "Hivello Network",
+            "nature": "Node",
+            "website": "https://x.com/HivelloOfficial",
+            "raised": "$900K",
+            "referral": "https://dashboard.hivello.com/referrals?code=CMG8A39211",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "sign up ",
+                "download node",
+                "",
+                "currently on PC unit or laptop only"
+            ]
+        },
+        {
+            "id": "airdrop48",
+            "name": "Minion Lab AI",
+            "nature": "Node",
+            "website": "https://x.com/MinionLabAI",
+            "raised": "$2M",
+            "referral": "https://ref.minionlab.io/?referralCode=hEVpQhTc",
+            "date_posted": null,
+            "airdropped": "Null",
+            "steps": [
+                "sign up",
+                "download extension and run node",
+                "additionally, you can install a separate program node aside from the chrome extension"
+            ]
+        },
+        {
+            "id": "airdrop49",
+            "name": "SoSo Value",
+            "nature": "Social-Fi",
+            "website": "https://x.com/SoSoValueCrypto",
+            "raised": "$19.15M",
+            "referral": "https://sosovalue.com/join/9T3EL82M",
+            "date_posted": null,
+            "airdropped": "January 18, 2025",
+            "steps": [
+                "create acount",
+                "connect socials",
+                "do social tasks",
+                "do daily tasks",
+                "",
+                "Season 2 airdrop is confirmed"
+            ]
         }
     ]
+    
