@@ -788,6 +788,22 @@
                 "",
                 "Season 2 airdrop is confirmed"
             ]
+        },
+        {
+            "id": "airdrop50",
+            "name": "Arkham",
+            "nature": "DeFi",
+            "website": "https://x.com/arkham",
+            "raised": "$12M and raising more",
+            "referral": "https://auth.arkm.com/register?ref=sganmb",
+            "date_posted": "02/09/2025",
+            "airdropped": null,
+            "steps": [
+                "Click the Referral above and create account",
+                "Do KYC or Verify your account",
+                "Build up transaction, swap, bridge, and transfer",
+                "Season 2 airdrop is confirmed"
+            ]
         }
     ]
     
